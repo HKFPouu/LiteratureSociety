@@ -1,0 +1,54 @@
+body {
+    background-image: url('../image/terrazzo.png');
+}
+
+.contact {
+    position: absolute;
+    top: 34%;
+    left: 2%;
+}
+
+.navigation {
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    z-index: 890890;
+}
+
+.navigation {
+    position: fixed;
+    right: 0%;
+    top: 0%;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 14px;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 14px;
+    font-size: 25px;
+    font-family: "楷体";
+}
+
+.navigation li a {
+    padding: 23px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a:hover {
+    cursor: pointer;
+    color: gray;
+    text-shadow: 2px 2px 0px gray;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    color: gray;
+}

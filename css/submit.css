@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "楷体";
+    font-size: 50px;
+}
+
+body {
+    background-image: url('../image/hex.png');
+}
+
+.top {
+    width: 100%;
+    height: 98vh;
+}
+
+.a {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+.a p {
+    transform: translateX(50%);
+    text-shadow: 2px 2px 0px grey;
+}
+
+.bottom {
+    width: 100%;
+    height: 2vh;
+}
+
+button {
+    background-color: rosybrown;
+    color: white;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    font-size: 25px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    color: gray;
+    font-size: 20px;
+}

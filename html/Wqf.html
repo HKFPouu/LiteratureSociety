@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>文章索引</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/Wqf.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="../index.html">首页</a>
+                </li>
+                <li>
+                    <a href="Wqf.html">文章索引</a>
+                </li>
+
+                <li>
+                    <a href="ljy.html">来投稿鸭</a>
+                </li>
+                <li>
+                    <a href="contact.html">联系我们</a>
+                </li>
+                <hr>
+            </ul>
+        </div>
+        <section class="section clearfix">
+            <div class="right">
+                <div class="imagesBox">
+                    <div>
+                        <div class="imageBox">
+                            <img src="../image/prose.jpg">
+                        </div>
+                        <div class="list sanwenList">
+                            <ul>
+                                <li><a href="prose.html">风雨里洗过的太阳</a></li>
+                                <li><a href="prose1.html">酒过三巡</a></li>
+                                <li><a href="prose2.html">故土难离</a></li>
+                            </ul>
+                        </div>
+                        <p id="sanwen">散文</p>
+                    </div>
+                    <div>
+                        <div class="imageBox">
+                            <img src="../image/noval.jpg">
+                        </div>
+                        <div class="list novelList">
+                            <ul>
+                                <li><a href="noval.html">土匪与警察</a></li>
+                                <li><a href="noval1.html">做蛋糕的好天气</a></li>
+                                <li><a href="noval2.html">金银匠</a></li>
+                            </ul>
+                        </div>
+                        <p id="novel">小说</p>
+                    </div>
+                    <div>
+                        <div class="imageBox">
+                            <img src="../image/poetry.jpg">
+                        </div>
+                        <div class="list poemList">
+                            <ul>
+                                <li><a href="poetry1.html">隔着海的那头</a></li>
+                                <li><a href="poetry2.html">亲爱的祖国</a></li>
+                                <li><a href="poetry3.html">妈妈的吻</a></li>
+                            </ul>
+                        </div>
+                        <p id="poem">诗歌</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <footer>
+                copyright@kpori
+            </footer>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var clickTime = 0;
+            $("#sanwen").click(function() {
+                clickTime++;
+                if (clickTime % 2) {
+                    $(".sanwenList").css({
+                        "opacity": 1,
+                        "transform": "translateY(0px)"
+                    });
+                } else {
+                    $(".sanwenList").css({
+                        "opacity": 0,
+                        "transform": "translateY(100%)"
+                    });
+                }
+            })
+            $("#novel").click(function() {
+                clickTime++;
+                if (clickTime % 2) {
+                    $(".novelList").css({
+                        "opacity": 1,
+                        "transform": "translateY(0px)"
+                    });
+                } else {
+                    $(".novelList").css({
+                        "opacity": 0,
+                        "transform": "translateY(100%)"
+                    });
+                }
+            })
+            $("#poem").click(function() {
+                clickTime++;
+                if (clickTime % 2) {
+                    $(".poemList").css({
+                        "opacity": 1,
+                        "transform": "translateY(0px)"
+                    });
+                } else {
+                    $(".poemList").css({
+                        "opacity": 0,
+                        "transform": "translateY(100%)"
+                    });
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

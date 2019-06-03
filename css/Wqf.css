@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+body {
+    background-image: url('../image/background.png')
+}
+
+.clearfix,
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+.navigation {
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    z-index: 890890;
+}
+
+.navigation {
+    position: fixed;
+    right: 0%;
+    top: 0%;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 14px;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 14px;
+    font-size: 25px;
+    font-family: "楷体";
+}
+
+.navigation li a {
+    padding: 23px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a:hover {
+    cursor: pointer;
+    color: gray;
+    text-shadow: 2px 2px 0px gray;
+}
+
+.container .section .right {
+    height: 521px;
+}
+
+.container .section .right header {
+    padding-bottom: 48px;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.container .section .right .imagesBox {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 9%;
+    margin-left: 1%;
+}
+
+.container .section .right .imagesBox>div {
+    width: 340px;
+    height: 475px;
+    margin: 5px auto;
+    position: relative;
+}
+
+.section .right .imagesBox>div .imageBox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.section .right .imagesBox>div p {
+    text-align: center;
+    background-color: lightgray;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.section .right .imagesBox>div p:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.section .right .imagesBox>div .imageBox img {
+    position: absolute;
+    left: -50%;
+    transform: translateX(50%);
+    height: 100%;
+    width: 100%;
+}
+
+.section .right .imagesBox>div .list {
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    background-color: rgba(173, 216, 230, 0.3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all .2s ease-in-out;
+}
+
+.section .right .imagesBox>div .list ul {
+    width: 100%;
+    text-align: center;
+}
+
+.section .right .imagesBox>div .list ul li {
+    line-height: 33px;
+    height: 33px;
+}
+
+.section .right .imagesBox>div .list ul li:hover {
+    background-color: rgba(173, 216, 230, 0.8)
+}
+
+.section .right .imagesBox>div .list ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    color: gray;
+}

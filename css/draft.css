@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: contents;
+    background-image: url('../image/colorful.png');
+}
+
+.top {
+    width: 100%;
+    height: 80vh;
+}
+
+.words-center {
+    width: 40%;
+    height: 50vh;
+    position: absolute;
+    top: 43%;
+    /* right: 73%; */
+    left: 16%;
+}
+
+.words-center p {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.enjoy {
+    width: 60%;
+    position: absolute;
+    top: 32%;
+    right: 0%;
+}
+
+.bottom {
+    width: 100%;
+    height: 20vh;
+}
+
+.words-right p {
+    line-height: 20px;
+    padding: 14px;
+}
+
+.button {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+button {
+    background-color: rosybrown;
+    color: white;
+    width: 140px;
+    height: 35px;
+    border: 2px solid rosybrown;
+    border-radius: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    color: gray;
+}
